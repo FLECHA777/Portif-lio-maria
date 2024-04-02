@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    font-family: "Poppins";
+}
+
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#head{
+    font-size: 24px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+
+#head h4{
+    text-decoration: underline;
+    margin-right: 100px;
+}
+
+#topicsHead {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    text-align: right;
+}
+
+#topicsHead a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.container{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#cont{
+    margin-top: 50px;
+}
+
+#imgMaria{
+    margin-left: auto;
+}
+
+#titleContainer{
+    font-size: 50px;
+}
+
+#pContainer{
+    font-size: 30px;
+    color: #575455;
+}
+
+button{
+    width: 300px;
+    height: 70px;
+    margin-top: 4%;
+    border: 1px solid rgb(0, 89, 255);
+    border-radius: 50px;
+    background-color: rgb(0, 89, 255);
+    font-size: 22px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+#clients p{
+    font-size: 28px;
+    text-align: left;
+}
+
+#clients{
+    margin-top: 5%;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    text-align: right;
+    margin-bottom: 100px;
+}
+
+#meio{
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+#meio p{
+    font-size: 30px;
+    color: #575455;
+}
+
+#meio h1{
+    font-size: 50px;
+    margin-bottom: 2.5%;
+}
+
+.logo{
+    text-align: center;
+}
+
+.imgC{
+    margin-bottom: 1.5%;
+    margin-left: 5%;
+}
+
+.pl{
+    font-size: 30px;
+    font-weight: bold; 
+}
+
+
+#txtG input{
+    width: 400px;
+    height: 50px;
+    border: 0px;
+    border-radius: 50px;
+    background-color: rgb(222, 241, 250);
+    padding-left: 5%;
+}
+
+#txtG ::placeholder{
+    font-size: 16px;
+}
+
+#txtG h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#txtG p{
+    color: chocolate;
+    font-size: 30px;
+}
+
+#bottomG p{
+    color: chocolate;
+    font-size: 30px;
+}
+
+#bottomG h1{
+    font-size: 50px;
+}
+
+.imgs3{
+    text-align: center;
+    margin-bottom: 20%;
+}
